@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="jquery.mobile-1.4.0.min.css" />
+<script src="jquery-1.10.2.min.js"></script>
+<script src="jquery.mobile-1.4.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".show-menu").click(function(){
+	  $(".sliding-menu").toggleClass("reverse out in"); 
+	         
+    });
+});
+</script>
+<title>Menu Inv-Area</title>
+</head>
+
+<body>
+
+<div data-role="page" data-theme="b">
+	   
+	<div data-role="header" data-position="fixed">
+  
+       <h1> Invisible Area</h1>
+    </div>
+    
+     <div data-role="content" class="content">
+     
+     	<img src="images/wall.jpg" width="100%"/>
+     
+    	<form><input type="button" class="show-menu" value="Menu" /> </form>
+    	<div class="sliding-menu slide fade ">
+    
+   		<a href="profil.html" class="ui-btn" >Profile</a>
+    	<a href="produk.html" class="ui-btn" >Produck</a>
+        <a href="kontak.html" class="ui-btn" data-rel="dialog">Contact</a>
+    	</div>
+       
+  	</div>
+    
+     
+    
+    <div data-role="footer" data-position="fixed"  >
+    <div data-role="navbar">
+    <ul>
+    <li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+    <li><a href="menu.html" class="ui-btn ui-icon-grid ui-btn-icon-top">Menu</a></li>
+    <li><a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-top">About</a></li>
+    
+    </ul>
+    </div>
+    
+	<h4>Invisible Area Creative Team | 2014</h4>
+    </div>
+    
+</body>
+</html>

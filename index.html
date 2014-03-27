@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="jquery.mobile-1.4.0.min.css" />
+<script src="jquery-1.10.2.min.js"></script>
+<script src="jquery.mobile-1.4.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".show-menu").click(function(){
+	  $(".sliding-menu").toggleClass("reverse out in"); 
+	         
+    });
+});
+</script>
+<title>Invisible Area</title>
+</head>
+
+<body>
+
+<div data-role="page" data-theme="b">
+	<div data-role="panel" id="default" data-position="left" data-display="reveal">
+    <h3>About Invisible Area</h3>
+    
+    <ul data-role="listview" data-inset="true" data-filter="true">
+      		<li data-icon="location"><a href="facebook.com/rahadian.bagaskoro">
+        		<h2>Facebook</h2>
+        		<p>facebook.com/rahadian.bagaskoro</p></a>
+       		 </li>
+            <li data-icon="bars"><a href="twitter.com/@raheydeanz">
+        		<h2>Twitter</h2>
+        		<p>twitter.com/@raheydeanz</p></a>
+       		 </li>
+      		<li data-icon="mail"><a href="google.com">
+        		<h2>Google</h2>
+        		<p>search</p></a>
+       		 </li>
+                   
+      </ul>
+    <p><a href="#" data-rel="close"  class="ui-btn ui-shadow ui-btn-inline ui-icon-delete ui-btn-icon-left">close</a></p>
+    
+    </div>
+    
+	<div data-role="header" data-position="fixed">
+    <a href="#default" class="ui-btn ui-shadow ui-btn-inline ui-icon-grid ui-btn-icon-left">Panel</a>
+    <h1> Invisible Area</h1>
+    </div>
+    
+     <div data-role="content" class="content">
+     
+     	<img src="images/wall1.jpg" data-transition="fade" width="100%"/>
+     
+    	
+   	</div>
+    
+     
+    
+    <div data-role="footer" data-position="fixed" >
+    
+    <div data-role="navbar">
+    <ul>
+    <li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+    <li><a href="menu.html" class="ui-btn ui-icon-grid ui-btn-icon-top">Menu</a></li>
+    <li><a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-top">About</a></li>
+    
+    </ul>
+    </div>
+    
+	<h4>Invisible Area Creative Team | 2014</h4>
+    </div>
+    
+</body>
+</html>
